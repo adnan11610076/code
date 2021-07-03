@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>AINE AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+
+            display: inline-block;
+
+        }
+
+        .upper {
+            background-color: white;
+            width: 90px;
+            height: 60px;
+            padding-top: 30px;
+            box-shadow: -2px -7px 9px;
+        }
+
+        .sidebar {
+
+            width: 90px;
+            height: 82px;
+            text-align: center;
+            color: rgb(68, 221, 241);
+
+        }
+
+        .logo1 {
+            width: 30px;
+            display: block;
+            margin: auto;
+
+        }
+
+        .logo2 {
+
+            width: 20px;
+            display: block;
+            margin: auto;
+            padding-top: 20px;
+            filter: invert(86%) sepia(46%) saturate(3002%) hue-rotate(165deg) brightness(110%) contrast(82%);
+        }
+
+        .sidebar:hover {
+            background-color: rgba(164, 210, 247, 0.623);
+            cursor: pointer;
+            color: black;
+        
+
+        }
+        
+        
+         
+
+
+
+
+
+        .middle {
+
+            background-color: rgb(245, 245, 245);
+            position: absolute;
+            width: 93%;
+            height: 571px;
+            top: 90px;
+            left: 90px;
+
+        }
+
+        .video {
+            display: flex;
+            position: relative;
+            top: 10px;
+            left: 13px;
+            margin-bottom: 39px;
+            filter: invert(86%) sepia(46%) saturate(3002%) hue-rotate(165deg) brightness(110%) contrast(82%);
+        }
+
+        #button {
+            width: 22px;
+            margin-top: 14px;
+        }
+
+        #video {
+            position: relative;
+            top: 15px;
+
+        }
+
+        .container2 {
+
+            display: block;
+            width: 430px;
+            margin: auto 167px;
+        }
+
+        .container2 p {
+            text-align: center;
+
+        }
+
+        #input {
+            width: 527px;
+            border-radius: 5px;
+            border-style: none;
+            margin-bottom: 25px;
+            padding: 5px;
+        }
+
+        #Upload {
+
+            background-color: rgb(254, 255, 255);
+            text-align: center;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        #Upload p {
+            position: relative;
+            top: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <div class="upper">
+        <img src="aine.png" alt="logo" class="logo1">
+    </div>
+
+
+    <div class="container">
+        <!--SIDEBAR-->
+
+        <div class="sidebar">
+            <img src="person.png" alt="student" class="logo2">
+          <p> Student</p>
+        </div>
+
+
+        <div class="sidebar">
+            <img src="book.png" alt="book" class="logo2">
+            <p>Lesson Plan</p>
+        </div>
+
+
+        <div class="sidebar">
+            <img src="setting.png" alt="setting" class="logo2">
+            <p>Setting</p>
+        </div>
+
+    </div>
+
+
+    <!--MIDDLE-->
+
+
+    <div class="middle">
+
+
+        <div class="video">
+            <img src="button.png" alt="button" id="button">
+            <p id="video"> Videos</p>
+        </div>
+
+
+        <div class="container2">
+
+            <input type="text" id="input" placeholder="    insert URL here">
+            <p>or</p>
+
+            <div id="Upload">
+                <p><b>upload</b></p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
